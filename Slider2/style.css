@@ -1,0 +1,275 @@
+body * {
+    box-sizing: border-box;  /*Чтобы при растягивании страницы контент оставался в пределах нужной ширины */
+}
+
+body{
+    margin: 0;
+    font-family: 'Nunito Sans', Arial;
+}
+
+
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.button{
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans';
+    font-style: italic;
+}
+
+.button_transparent{
+    background: rgb(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border:  1px solid #FFFFFF;
+    outline: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.logo{
+    color: #E3B873;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #E3B873;
+}
+
+
+
+.title{
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.title2{
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h1.title{
+    margin-left: 134px;
+}
+
+.subtitle{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.margin-left{
+    margin-left: 134px;
+}
+
+.window{
+    background-color: black;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.margin-top20{
+    margin-top: -30px;
+}
+
+.empty{
+    display: none;
+}
+
+.margin-top333{
+    margin-top:-120px;
+}
+
+.width-height{
+    min-width: 442px;
+    min-height: 86px;
+}
+
+.window-title{
+    margin-top: 176px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.window-subtitle{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.window_margin_left_subtitle{
+    margin-left: 100px;
+}
+
+.margin-bottom{
+    margin-bottom: -150px;
+}
+
+.margin-bottom2{
+    margin-bottom: -120px;
+    /* padding-bottom: -200px; */
+}
+
+/* 
+.dot_white{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block; 
+    cursor: pointer;
+    border: none;
+    background: #FFFFFF;
+    color: transparent;
+    border: none;
+    font-size: 0;
+} */
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #696868;
+    font-size: 0;
+}
+
+.active{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: white;
+    font-size: 0;
+}
+
+.margin-dot{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.margin_dot_top{
+    margin-top: 20px;
+}
+
+.picture-window{
+    padding-bottom: 230px;
+}
+
+.margin-top107{
+    margin-top: 107px;
+    
+}
+
+.window-navigation_item{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);    
+}
+
+.padding-nav{
+    margin-left: -40px;
+}
+
+.window-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+li.window-navigation_item{    
+    width: 199px;
+}
+
+.margin-left60{
+    margin-left: 60px;
+}
+
+.slider-container {
+  position: relative;
+  /* width: 600px;
+  height: 400px; */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+  
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.active_yellow{
+    
+    border-bottom: 1px solid #E3B873;
+    color: #E3B873;
+}
+
+.active_grey{   
+    border-bottom: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+img[alt="dot"]{
+    cursor: pointer;
+}
+
+.background_white{
+    background: white;
+}
+
+.background_grey{
+    background: #696868;
+}
